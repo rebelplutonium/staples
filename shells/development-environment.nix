@@ -77,5 +77,6 @@ staples.pkgs.mkShell {
     staples.scripts.git-refresh
     staples.scripts.git-standing
     staples.pkgs.emacs
+    staples.gnupg
   ];
 }
