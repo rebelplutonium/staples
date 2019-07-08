@@ -298,5 +298,12 @@ rec {
         pkgs.openssh
       ];
     };
+    uuidgen = script {
+      name = "uuidgen";
+      src = ./scripts/uuidgen;
+      dependencies = [
+        pkgs.coreutils
+      ];
+    };
   };
 }
