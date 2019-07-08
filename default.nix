@@ -76,6 +76,7 @@ rec {
       dependencies = [
         pkgs.git
 	git-refresh
+	pkgs.coreutils
       ];
     };
     git-refresh = script {
@@ -84,6 +85,7 @@ rec {
       dependencies = [
         pkgs.git
 	git-standing
+	pkgs.coreutils
       ];
     };
     git-standing = script {
