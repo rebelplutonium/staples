@@ -78,6 +78,7 @@ rec {
 	git-refresh
 	pkgs.coreutils
 	uuidgen
+	pkgs.vi
       ];
     };
     git-refresh = script {
